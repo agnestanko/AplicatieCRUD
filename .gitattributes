@@ -12,3 +12,15 @@ Aplicatie.API/bin/* linguist-generated=true
 Aplicatie.UI/src/**/*.ts linguist-language=TypeScript
 Aplicatie.UI/src/**/*.html linguist-language=HTML
 Aplicatie.UI/src/**/*.css linguist-language=CSS
+
+Aplicatie.API/Migrations/* linguist-generated=true
+Aplicatie.API/bin/* linguist-generated=true
+Aplicatie.API/obj/* linguist-generated=true
+
+Aplicatie.UI/package-lock.json linguist-generated=true
+Aplicatie.UI/.angular/** linguist-generated=true
+Aplicatie.UI/node_modules/** linguist-vendored=true
+
+Aplicatie.UI/src/**/*.ts linguist-language=TypeScript
+Aplicatie.UI/src/**/*.html linguist-language=HTML
+Aplicatie.UI/src/**/*.css linguist-language=CSS
