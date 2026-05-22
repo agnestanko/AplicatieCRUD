@@ -1,0 +1,34 @@
+# Angular
+Aplicatie.UI/node_modules/
+Aplicatie.UI/.angular/
+Aplicatie.UI/dist/
+Aplicatie.UI/.vscode/
+Aplicatie.UI/.env
+
+# .NET
+Aplicatie.API/bin/
+Aplicatie.API/obj/
+Aplicatie.API/.vs/
+Aplicatie.API/*.user
+Aplicatie.API/*.suo
+Aplicatie.API/*.rsuser
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.rsuser
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+*.env
