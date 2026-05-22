@@ -1,0 +1,35 @@
+<div class="container my-5">
+  <h1 class="mb-3">Angajati</h1>
+
+  <table class="table" *ngIf="angajati && angajati.length > 0">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Nume</th>
+        <th>Email</th>
+        <th>Telefon</th>
+        <th>Salar</th>
+        <th>Departament</th>
+        <th>Actiune</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let angajat of angajati">
+        <td>{{ angajat.id }}</td>
+        <td>{{ angajat.name }}</td>
+        <td>{{ angajat.email }}</td>
+        <td>{{ angajat.phone }}</td>
+        <td>{{ angajat.salary }}</td>
+        <td>{{ angajat.department }}</td>
+        <td>
+          <a class="btn btn-primary btn-sm" [routerLink]="['/angajati/edit', angajat.id]">
+            Edit
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="!angajati || angajati.length <= 0">Nu sunt angajati</p>
+</div>
