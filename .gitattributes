@@ -1,0 +1,14 @@
+# Ignore generated and config files in GitHub language statistics
+Aplicatie.UI/package-lock.json linguist-generated=true
+Aplicatie.UI/package.json linguist-vendored=false
+Aplicatie.UI/angular.json linguist-generated=true
+Aplicatie.UI/tsconfig*.json linguist-generated=true
+
+Aplicatie.API/Migrations/* linguist-generated=true
+Aplicatie.API/obj/* linguist-generated=true
+Aplicatie.API/bin/* linguist-generated=true
+
+# Mark Angular source files clearly
+Aplicatie.UI/src/**/*.ts linguist-language=TypeScript
+Aplicatie.UI/src/**/*.html linguist-language=HTML
+Aplicatie.UI/src/**/*.css linguist-language=CSS
